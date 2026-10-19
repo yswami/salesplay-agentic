@@ -4,6 +4,12 @@
 
 A sample seller workspace: set a growth goal, let agents investigate accounts, review the evidence, prepare a conversation, and adapt when buyer feedback changes the fit.
 
+## Customer sharing materials
+
+[Customer overview - 5-page PDF](SalesPlay-Customer-Overview.pdf) · [Customer walkthrough - 4:00 video](SalesPlay-Customer-Walkthrough.mp4) · [Captions](SalesPlay-Customer-Captions.srt)
+
+These materials match the current customer presentation. The video records actual interactions, edited into seven narrated chapters. Its accounts, research findings, buyer responses, and agent actions use the same controlled simulation as the prototype.
+
 ## Customer presentation
 
 The product flow focuses on the seller's work. It contains no manager brief, presentation guide, future-state labels, or internal review instructions. A concise Sample data control opens the disclosure. Evidence records retain their public, fictional, and simulated provenance.
@@ -25,7 +31,7 @@ These original review artifacts are retained and describe the earlier manager pr
 - [Original recorded manager walkthrough (5:31)](SalesPlay-Agentic-Manager-Walkthrough.mp4)
 - [Narration](SalesPlay-Agentic-Narration.mp3), [captions](SalesPlay-Agentic-Captions.srt), [script](SalesPlay-Agentic-Script.txt), and [chapters](SalesPlay-Agentic-Chapters.txt)
 
-The recording has not been re-recorded for the customer presentation.
+The original manager recording is unchanged. Use the customer walkthrough above for the current customer presentation.
 
 ## Implementation and verification
 

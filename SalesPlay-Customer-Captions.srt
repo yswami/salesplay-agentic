@@ -1,0 +1,212 @@
+1
+00:00:00,500 --> 00:00:04,800
+Which account is worth your next conversation, and why?
+
+2
+00:00:04,800 --> 00:00:08,520
+That is the job SalesPlay helps a seller work through.
+
+3
+00:00:08,520 --> 00:00:13,890
+In this example, Jamie sells robotic core-stacking equipment to
+transformer manufacturers in North
+
+4
+00:00:14,330 --> 00:00:19,120
+America. The goal is to find manufacturers that could need more core-
+assembly capacity.
+
+5
+00:00:19,120 --> 00:00:21,920
+This walkthrough uses sample accounts and research.
+
+6
+00:00:21,920 --> 00:00:27,820
+The seller sets the outcome; agents connect market context, product fit,
+and account evidence,
+
+7
+00:00:28,130 --> 00:00:29,530
+then prepare a useful next move.
+
+8
+00:00:30,880 --> 00:00:36,760
+SalesPlay starts a research plan. It checks the market context, narrows
+the relevant manufacturing
+
+9
+00:00:36,800 --> 00:00:42,530
+process, investigates accounts beyond the existing list, and separates a
+possible fit from a
+
+10
+00:00:42,690 --> 00:00:47,010
+confirmed need. Each completed step links to its evidence.
+
+11
+00:00:47,453 --> 00:00:52,230
+MarketsandMarkets' specialist research could add value here by
+connecting a demand signal to the
+
+12
+00:00:52,650 --> 00:00:56,640
+applications and processes a product can actually serve.
+
+13
+00:00:56,640 --> 00:01:00,340
+In this demonstration, that specialist map is simulated.
+
+14
+00:01:00,340 --> 00:01:07,350
+Growing transformer demand creates a reason to investigate; it does not
+prove that any account needs Jamie's equipment.
+
+15
+00:01:09,240 --> 00:01:10,860
+Ridgeway appears as a new account.
+
+16
+00:01:10,860 --> 00:01:17,240
+Its starting profile suggests a possible fit, but one important question
+is still open: does the
+
+17
+00:01:17,490 --> 00:01:23,040
+plant assemble laminated cores in-house? HarborGrid is already known to
+Jamie and needs a
+
+18
+00:01:23,040 --> 00:01:29,730
+different expansion conversation. Summit is excluded because its wound-
+core process does not fit
+
+19
+00:01:29,730 --> 00:01:36,050
+the equipment. Opening Ridgeway makes the connection clear: market
+context, relevant production
+
+20
+00:01:36,050 --> 00:01:39,520
+process, account evidence, and the next buyer question.
+
+21
+00:01:39,520 --> 00:01:44,370
+The seller can inspect both the evidence and what it leaves unconfirmed.
+
+22
+00:01:45,600 --> 00:01:49,000
+The investigation becomes something Jamie can use.
+
+23
+00:01:49,000 --> 00:01:54,400
+SalesPlay prepares a short opening for the plant operations team,
+together with three discovery
+
+24
+00:01:54,770 --> 00:01:59,160
+questions. Jamie can edit the message and check it against the current
+account facts before saving
+
+25
+00:01:59,160 --> 00:02:05,420
+it. Nothing is sent. This keeps the conversation specific without
+assuming an equipment project
+
+26
+00:02:05,420 --> 00:02:12,090
+already exists. The saved play stays connected to the evidence behind
+it, so later changes can trigger a fresh review.
+
+27
+00:02:13,440 --> 00:02:19,480
+Now the buyer adds a decisive fact: Ridgeway buys finished cores from a
+supplier.
+
+28
+00:02:19,480 --> 00:02:25,360
+Core assembly is outsourced. SalesPlay stops that equipment approach and
+changes the research
+
+29
+00:02:25,360 --> 00:02:30,240
+requirement. The next account needs explicit evidence of in-house
+assembly.
+
+30
+00:02:30,240 --> 00:02:35,520
+It then investigates Evergreen, a different manufacturer with a stronger
+process match.
+
+31
+00:02:35,520 --> 00:02:41,000
+The original Ridgeway message is kept as history, marked for review, and
+blocked from export.
+
+32
+00:02:41,000 --> 00:02:45,251
+The goal continues, while the work and the recommendation change with
+the facts.
+
+33
+00:02:46,600 --> 00:02:49,160
+Evergreen still has a research gap.
+
+34
+00:02:49,160 --> 00:02:55,540
+SalesPlay prepares a focused analyst question about the account's
+product-segment relevance, with
+
+35
+00:02:55,610 --> 00:02:58,160
+the goal and evidence already attached.
+
+36
+00:02:58,160 --> 00:03:03,360
+The sample analyst finding supports that match, but the buyer must still
+confirm the production
+
+37
+00:03:03,360 --> 00:03:09,670
+need. When the sample buyer confirms both in-house assembly and a
+capacity need, the next action
+
+38
+00:03:09,670 --> 00:03:15,570
+becomes a technical assessment. An application engineer should establish
+equipment compatibility
+
+39
+00:03:15,640 --> 00:03:20,511
+and installation requirements before anyone makes a benefit or
+investment claim.
+
+40
+00:03:21,840 --> 00:03:28,240
+The same journey can frame a focused pilot: one product, one market, and
+five accounts.
+
+41
+00:03:28,240 --> 00:03:33,780
+Plan a pilot captures the intended outcome and prepares a brief for a
+scope discussion.
+
+42
+00:03:33,840 --> 00:03:38,560
+This demonstration saves that brief locally; it does not submit a
+request.
+
+43
+00:03:38,560 --> 00:03:44,070
+A useful evaluation would ask whether the accounts are relevant and new,
+whether the evidence is
+
+44
+00:03:44,290 --> 00:03:49,340
+correct, whether buyers confirm a need, and how much research effort is
+required.
+
+45
+00:03:49,440 --> 00:03:55,560
+The outcome to test is simple: a better next customer conversation, with
+a clear reason to have it.
+
