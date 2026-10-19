@@ -1,0 +1,14 @@
+const vm=require('node:vm'),fs=require('node:fs'),assert=require('node:assert/strict');
+const path=require('node:path'),root=path.resolve(__dirname,'..');
+const elements=new Map();const el=q=>{if(!elements.has(q))elements.set(q,{innerHTML:'',classList:{add(){},remove(){}},focus(){}});return elements.get(q)};
+const c={console,document:{querySelector:el,querySelectorAll(){return[]}},localStorage:{getItem(){throw Error('unavailable')},setItem(){throw Error('unavailable')}},location:{hash:'#goal'},setTimeout(){return 1},clearTimeout(){},setInterval(){return 1},clearInterval(){},scrollTo(){},Date,Set};c.window=c;vm.createContext(c);
+for(const f of ['data.js','engine.js'])vm.runInContext(fs.readFileSync(path.join(root,f),'utf8'),c);
+const app=fs.readFileSync(path.join(root,'app.js'),'utf8');vm.runInContext(app.slice(0,app.indexOf("window.addEventListener('hashchange'")),c);const run=s=>vm.runInContext(s,c);
+run("state=E.start(state,D);for(let i=0;i<5;i++)state=E.advance(state,D);state=E.feedback(state,'ridgeway','outsourced','unknown','We outsource core assembly.');state=E.start(state,D);for(let i=0;i<5;i++)state=E.advance(state,D);state=E.prepareAnalyst(state);state=E.applyAnalyst(state);state=E.feedback(state,'evergreen','inhouse','confirmed','We need more assembly capacity.');");
+let detail=run("opportunity('evergreen')");assert(detail.includes('NEXT VALIDATION · TECHNICAL'));assert(!detail.includes('The buyer must still confirm the production constraint'));assert(detail.includes('Prepare technical review'));
+run("state=E.monitor(state)");detail=run("opportunity('harbor')");assert(detail.includes('Simulated monitoring event'));assert(detail.includes('Prepare follow-up'));
+assert.equal(run("esc('<img onerror=1>')"),'&lt;img onerror=1&gt;');
+const evidence=run("evidence(state.feedback.evergreen.sourceId)");assert(evidence.supports.includes('confirmed in this sample'));assert(evidence.title.includes('Evergreen'));
+run('persist()');assert.equal(run('storageFailed'),true);
+console.log('PASS Rendered account copy stays consistent after analyst, buyer, and monitoring updates.');
+console.log('PASS Buyer evidence is versioned, rendered user text is escaped, and unavailable storage is handled.');

@@ -1,0 +1,320 @@
+1
+00:00:00,500 --> 00:00:04,785
+This is a separate concept for the agentic future of SalesPlay.
+
+2
+00:00:05,080 --> 00:00:10,800
+The seller is Jamie at Aster Automation, selling machines that assemble
+laminated transformer
+
+3
+00:00:11,170 --> 00:00:16,250
+cores. Jamie’s goal is to find manufacturers where that equipment could
+address an in-house
+
+4
+00:00:16,890 --> 00:00:20,850
+assembly need. The outcome is a useful next conversation.
+
+5
+00:00:21,170 --> 00:00:26,240
+SalesPlay takes responsibility for the investigation, while Jamie
+supplies business context and
+
+6
+00:00:26,240 --> 00:00:32,800
+new customer facts. The accounts and agent actions in this local preview
+are simulated.
+
+7
+00:00:32,800 --> 00:00:37,370
+Start with the growth goal, the product, and North America as the
+territory.
+
+8
+00:00:37,970 --> 00:00:39,630
+Then start the investigation.
+
+9
+00:00:41,525 --> 00:00:43,840
+SalesPlay now works through a visible plan.
+
+10
+00:00:43,840 --> 00:00:50,200
+It establishes the market reason, narrows the relevant manufacturing
+process, investigates
+
+11
+00:00:50,570 --> 00:00:55,280
+accounts beyond the customer list, checks the fit, and prepares a
+decision.
+
+12
+00:00:55,280 --> 00:00:58,530
+Each completed action links to the records it used.
+
+13
+00:00:58,620 --> 00:01:02,460
+The Department of Energy provides public industry context.
+
+14
+00:01:02,460 --> 00:01:08,160
+A simulated specialist segment map connects that context to laminated-
+core assembly.
+
+15
+00:01:08,160 --> 00:01:11,680
+Fictional account profiles supply possible matches.
+
+16
+00:01:11,680 --> 00:01:16,160
+This activity log shows observable actions and their outputs.
+
+17
+00:01:16,160 --> 00:01:19,520
+In a live product, research tools would perform those steps.
+
+18
+00:01:19,520 --> 00:01:24,410
+Here, a deterministic scenario makes the proposed behavior inspectable
+and repeatable.
+
+19
+00:01:25,760 --> 00:01:31,430
+The first investigation surfaces Ridgeway, an account outside Jamie’s
+existing list.
+
+20
+00:01:31,735 --> 00:01:34,920
+HarborGrid is a known account with an expansion review.
+
+21
+00:01:35,220 --> 00:01:39,520
+Summit is excluded because its wound-core process does not fit the
+equipment.
+
+22
+00:01:39,520 --> 00:01:41,800
+Open Ridgeway to see the reasoning.
+
+23
+00:01:42,060 --> 00:01:45,360
+Market demand explains why the industry is worth investigating.
+
+24
+00:01:45,360 --> 00:01:48,440
+The segment map narrows the relevant process.
+
+25
+00:01:48,440 --> 00:01:51,690
+The starting profile suggests in-house assembly.
+
+26
+00:01:51,780 --> 00:01:56,880
+That last claim is provisional, and it matters most to the next
+decision.
+
+27
+00:01:57,220 --> 00:02:01,840
+SalesPlay recommends a plant-operations conversation to establish the
+process and need.
+
+28
+00:02:01,840 --> 00:02:05,670
+It does not turn market growth into an assertion that Ridgeway is
+buying.
+
+29
+00:02:06,880 --> 00:02:09,600
+The research should help Jamie act.
+
+30
+00:02:09,940 --> 00:02:14,600
+SalesPlay prepares a short opening, identifies the plant operations
+team, and suggests three
+
+31
+00:02:14,970 --> 00:02:18,680
+questions about the process, production need, and timing.
+
+32
+00:02:18,680 --> 00:02:24,240
+Jamie can edit the message. Editing clears its review, and saving
+records the evidence version
+
+33
+00:02:24,610 --> 00:02:26,600
+behind the play. Nothing is sent.
+
+34
+00:02:26,600 --> 00:02:30,400
+This keeps the agent’s work connected to a practical seller outcome.
+
+35
+00:02:30,400 --> 00:02:34,970
+The seller can inspect the evidence and judge the opening, without
+having to run every research
+
+36
+00:02:35,200 --> 00:02:39,490
+task or understand a factory capacity model before the first
+conversation.
+
+37
+00:02:40,880 --> 00:02:43,300
+Now record a sample buyer correction.
+
+38
+00:02:43,300 --> 00:02:48,760
+Ridgeway buys finished cores from a supplier, so assembly is not done in
+its plant.
+
+39
+00:02:48,760 --> 00:02:51,720
+The earlier equipment approach no longer fits.
+
+40
+00:02:51,955 --> 00:02:57,370
+SalesPlay records that fact for Ridgeway, flags the saved play for
+review, and changes its
+
+41
+00:02:57,370 --> 00:03:03,240
+investigation. The next account must have explicit, recent evidence of
+in-house assembly.
+
+42
+00:03:03,240 --> 00:03:09,520
+Watch the revised plan investigate Evergreen, a different manufacturer
+outside Jamie’s account
+
+43
+00:03:09,890 --> 00:03:13,400
+list. The seller has supplied one consequential fact.
+
+44
+00:03:13,400 --> 00:03:16,640
+The system changes the work it performs next.
+
+45
+00:03:16,640 --> 00:03:21,470
+The original goal remains intact, and the earlier decision remains
+visible in the history.
+
+46
+00:03:22,880 --> 00:03:28,400
+Evergreen has stronger process evidence, but a product-segment question
+remains.
+
+47
+00:03:28,740 --> 00:03:33,930
+SalesPlay prepares an analyst handoff with the goal, the operations
+profile, the segment map, and
+
+48
+00:03:33,930 --> 00:03:38,720
+a precise question. No request is actually sent in this prototype.
+
+49
+00:03:38,720 --> 00:03:41,540
+Apply the clearly labeled sample analyst finding.
+
+50
+00:03:41,540 --> 00:03:47,080
+It keeps Evergreen within the segment map, while leaving the production
+need unconfirmed.
+
+51
+00:03:47,080 --> 00:03:50,000
+The next step becomes a buyer conversation.
+
+52
+00:03:50,000 --> 00:03:55,430
+If the buyer later confirms an assembly need, an application engineer
+should assess technical fit.
+
+53
+00:03:55,490 --> 00:04:01,450
+The proposed agent chooses the right validation route instead of
+inventing an answer it cannot support.
+
+54
+00:04:02,880 --> 00:04:06,680
+Open the research activity to see the goal and its decision history.
+
+55
+00:04:06,680 --> 00:04:12,630
+The Ridgeway correction, the revised search, the Evergreen evidence, and
+the analyst finding stay
+
+56
+00:04:13,110 --> 00:04:17,870
+connected. The previous Ridgeway play remains available as history, with
+export blocked because
+
+57
+00:04:18,080 --> 00:04:23,970
+its facts have changed. A sample monitoring update shows the next part
+of the future experience.
+
+58
+00:04:24,330 --> 00:04:29,600
+HarborGrid’s expansion review is postponed, so SalesPlay changes the
+timing recommendation.
+
+59
+00:04:29,600 --> 00:04:33,600
+This is a manually played event; no live watcher is active.
+
+60
+00:04:33,600 --> 00:04:39,310
+The intended product would keep investigating within an agreed scope and
+surface material changes
+
+61
+00:04:39,370 --> 00:04:41,670
+that deserve the seller’s attention.
+
+62
+00:04:42,840 --> 00:04:48,410
+The product bet is that MarketsandMarkets can make this investigation
+more useful through granular
+
+63
+00:04:48,600 --> 00:04:54,360
+market relationships and analyst expertise. Research must improve the
+account decision, rather
+
+64
+00:04:54,360 --> 00:05:00,640
+than simply add more text. SalesPlay already markets agents, and
+competitors also promise research
+
+65
+00:05:00,640 --> 00:05:05,490
+and execution. The differentiation to prove is the quality of the
+research-to-decision loop.
+
+66
+00:05:05,520 --> 00:05:09,320
+Start with one product line, one territory, and five accounts.
+
+67
+00:05:09,660 --> 00:05:15,280
+Compare public research with entitled specialist intelligence, holding
+the workflow constant.
+
+68
+00:05:15,650 --> 00:05:21,040
+Measure useful novelty, specificity, correctness, buyer-confirmed need,
+and effort.
+
+69
+00:05:21,040 --> 00:05:27,340
+The manager can now evaluate a clear direction: the seller owns the
+goal, agents investigate, and
+
+70
+00:05:27,420 --> 00:05:30,840
+customer facts continuously steer the next useful action.
+

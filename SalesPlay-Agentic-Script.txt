@@ -1,0 +1,33 @@
+SalesPlay | Agentic future manager walkthrough
+
+1. The seller sets the goal
+
+This is a separate concept for the agentic future of SalesPlay. The seller is Jamie at Aster Automation, selling machines that assemble laminated transformer cores. Jamie’s goal is to find manufacturers where that equipment could address an in-house assembly need. The outcome is a useful next conversation. SalesPlay takes responsibility for the investigation, while Jamie supplies business context and new customer facts. The accounts and agent actions in this local preview are simulated. Start with the growth goal, the product, and North America as the territory. Then start the investigation.
+
+2. Agents investigate and show their work
+
+SalesPlay now works through a visible plan. It establishes the market reason, narrows the relevant manufacturing process, investigates accounts beyond the customer list, checks the fit, and prepares a decision. Each completed action links to the records it used. The Department of Energy provides public industry context. A simulated specialist segment map connects that context to laminated-core assembly. Fictional account profiles supply possible matches. This activity log shows observable actions and their outputs. In a live product, research tools would perform those steps. Here, a deterministic scenario makes the proposed behavior inspectable and repeatable.
+
+3. A new account with a reason to investigate
+
+The first investigation surfaces Ridgeway, an account outside Jamie’s existing list. HarborGrid is a known account with an expansion review. Summit is excluded because its wound-core process does not fit the equipment. Open Ridgeway to see the reasoning. Market demand explains why the industry is worth investigating. The segment map narrows the relevant process. The starting profile suggests in-house assembly. That last claim is provisional, and it matters most to the next decision. SalesPlay recommends a plant-operations conversation to establish the process and need. It does not turn market growth into an assertion that Ridgeway is buying.
+
+4. Turn the investigation into a useful action
+
+The research should help Jamie act. SalesPlay prepares a short opening, identifies the plant operations team, and suggests three questions about the process, production need, and timing. Jamie can edit the message. Editing clears its review, and saving records the evidence version behind the play. Nothing is sent. This keeps the agent’s work connected to a practical seller outcome. The seller can inspect the evidence and judge the opening, without having to run every research task or understand a factory capacity model before the first conversation.
+
+5. A buyer fact changes the agent’s next move
+
+Now record a sample buyer correction. Ridgeway buys finished cores from a supplier, so assembly is not done in its plant. The earlier equipment approach no longer fits. SalesPlay records that fact for Ridgeway, flags the saved play for review, and changes its investigation. The next account must have explicit, recent evidence of in-house assembly. Watch the revised plan investigate Evergreen, a different manufacturer outside Jamie’s account list. The seller has supplied one consequential fact. The system changes the work it performs next. The original goal remains intact, and the earlier decision remains visible in the history.
+
+6. Route the unknown to the right specialist
+
+Evergreen has stronger process evidence, but a product-segment question remains. SalesPlay prepares an analyst handoff with the goal, the operations profile, the segment map, and a precise question. No request is actually sent in this prototype. Apply the clearly labeled sample analyst finding. It keeps Evergreen within the segment map, while leaving the production need unconfirmed. The next step becomes a buyer conversation. If the buyer later confirms an assembly need, an application engineer should assess technical fit. The proposed agent chooses the right validation route instead of inventing an answer it cannot support.
+
+7. Keep the goal current as facts change
+
+Open the research activity to see the goal and its decision history. The Ridgeway correction, the revised search, the Evergreen evidence, and the analyst finding stay connected. The previous Ridgeway play remains available as history, with export blocked because its facts have changed. A sample monitoring update shows the next part of the future experience. HarborGrid’s expansion review is postponed, so SalesPlay changes the timing recommendation. This is a manually played event; no live watcher is active. The intended product would keep investigating within an agreed scope and surface material changes that deserve the seller’s attention.
+
+8. The MarketsandMarkets advantage to prove
+
+The product bet is that MarketsandMarkets can make this investigation more useful through granular market relationships and analyst expertise. Research must improve the account decision, rather than simply add more text. SalesPlay already markets agents, and competitors also promise research and execution. The differentiation to prove is the quality of the research-to-decision loop. Start with one product line, one territory, and five accounts. Compare public research with entitled specialist intelligence, holding the workflow constant. Measure useful novelty, specificity, correctness, buyer-confirmed need, and effort. The manager can now evaluate a clear direction: the seller owns the goal, agents investigate, and customer facts continuously steer the next useful action.
