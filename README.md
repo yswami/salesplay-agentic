@@ -1,39 +1,35 @@
-# SalesPlay — agentic future manager demo
+# SalesPlay — agentic customer demonstration
 
-[Open the live prototype](https://yswami.github.io/salesplay-agentic/) · [Manager brief (PDF)](https://yswami.github.io/salesplay-agentic/SalesPlay-Agentic-Manager-Brief.pdf) · [Recorded walkthrough (5:31)](https://yswami.github.io/salesplay-agentic/SalesPlay-Agentic-Manager-Walkthrough.mp4)
+[Open SalesPlay](https://yswami.github.io/salesplay-agentic/?v=customer-1#goal) · [Standalone customer version](SalesPlay-Agentic-Demo.html)
 
-A separate concept showing how SalesPlay could help a seller pursue a goal, investigate opportunities, and change direction when buyer facts change. The earlier [customer demo](https://yswami.github.io/salesplay-v2/) is preserved in its separate repository.
+A sample seller workspace: set a growth goal, let agents investigate accounts, review the evidence, prepare a conversation, and adapt when buyer feedback changes the fit.
 
-## Try the journey
+## Customer presentation
 
-1. Start the investigation for Jamie's core-stacking equipment goal.
-2. Review Ridgeway, inspect the evidence, then prepare, review, and save a play.
-3. Record the sample buyer response: core assembly is outsourced.
-4. See Ridgeway excluded, the evidence requirement change, and Evergreen investigated.
-5. Review the analyst handoff, apply the sample finding, and validate the next buyer question.
-6. Confirm in-house assembly and a capacity need to reach technical review. The earlier Ridgeway play remains in history with export blocked.
-7. In Research activity, try the later monitoring update and inspect the proposed pilot.
+The product flow focuses on the seller's work. It contains no manager brief, presentation guide, future-state labels, or internal review instructions. A concise Sample data control opens the disclosure. Evidence records retain their public, fictional, and simulated provenance.
 
-The in-product **Demo guide** explains the click path. Use the reset icon to restart.
+The key moment: Ridgeway says it outsources core assembly. SalesPlay excludes that account for this equipment, changes the search requirement, investigates Evergreen, and blocks reuse of the old reviewed message. Analyst and buyer validation remain distinct. Plan a pilot prepares an editable local brief for one product, one market, and five accounts; it does not submit a request.
 
-## Review without presenting live
+## Scope
 
-- [Seven-page manager brief](SalesPlay-Agentic-Manager-Brief.pdf): thesis, journey, adaptive behavior, MarketsandMarkets' potential research advantage, feasible architecture, and pilot.
-- [Narrated MP4](SalesPlay-Agentic-Manager-Walkthrough.mp4): actual recorded interactions edited into eight chapters, with burned and selectable English captions.
-- [Standalone HTML](SalesPlay-Agentic-Manager-Demo.html): download and open locally, with the PDF beside it.
-- [Narration](SalesPlay-Agentic-Narration.mp3), [captions](SalesPlay-Agentic-Captions.srt), [script](SalesPlay-Agentic-Script.txt), and [chapters](SalesPlay-Agentic-Chapters.txt).
+This is a deterministic simulation using fictional accounts and sample findings. It does not run live AI, licensed research, CRM, outreach, analyst requests, or background monitoring. Editing the example goal does not run an open-ended search. Public DOE and LAE sources establish industry and category context only. No measured research or commercial advantage is claimed.
 
-## Concept boundaries
+Customer state uses `salesplay-agentic-customer-v1`. The original manager state uses its own key and is unaffected. The earlier [SalesPlay customer demo](https://yswami.github.io/salesplay-v2/) and its repository are unchanged.
 
-This is a deterministic local simulation, not live autonomous research. Sellers, accounts, account records, specialist research, analyst findings, and buyer responses are fictional. Editing the goal note does not change the fixture-based research results. Public DOE and LAE sources establish industry and equipment-category context only.
+## Internal manager material — separate from the customer flow
 
-No live AI, entitled MarketsandMarkets research, CRM, contact enrichment, outreach, analyst service, or scheduled monitoring is connected. Browser state stays in this demo's local storage (`salesplay-agentic-manager-v1`). Nothing is submitted to a service. GitHub Pages hosts the public static files.
+These original review artifacts are retained and describe the earlier manager presentation:
 
-Existing SalesPlay already describes agent-based monitoring, opportunity discovery, and sales execution. This concept demonstrates an explicit research-to-decision workflow and a research advantage to test; it claims no measured superiority, pipeline, conversion, or revenue gain.
+- [Original manager prototype](SalesPlay-Agentic-Manager-Demo.html)
+- [Seven-page manager brief](SalesPlay-Agentic-Manager-Brief.pdf)
+- [Original recorded manager walkthrough (5:31)](SalesPlay-Agentic-Manager-Walkthrough.mp4)
+- [Narration](SalesPlay-Agentic-Narration.mp3), [captions](SalesPlay-Agentic-Captions.srt), [script](SalesPlay-Agentic-Script.txt), and [chapters](SalesPlay-Agentic-Chapters.txt)
 
-## Source and checks
+The recording has not been re-recorded for the customer presentation.
 
-Plain HTML, CSS, and JavaScript at the repository root. `data.js` holds linked fixtures; `engine.js` holds state transitions; `app.js` renders the experience. No build or external runtime service is needed. `build-standalone.py` rebuilds the single-file version.
+## Implementation and verification
+
+Plain HTML, CSS, and JavaScript. `data.js` holds scenario fixtures, `engine.js` owns transitions and evidence versions, and `app.js` renders the workspace. `build-standalone.py` creates the self-contained customer HTML.
 
 ```sh
 node tests/test-engine.cjs
@@ -41,6 +37,6 @@ node tests/test-render.cjs
 node tests/test-standalone.cjs
 ```
 
-The workflow and rendering suites cover buyer-led replanning, evidence versions, review invalidation, specialist gating, malformed inputs, and denied storage. The standalone suite verifies boot and guarded export generation. Desktop, laptop, and phone layouts were reviewed; all seven PDF pages were rendered and inspected. Direct file-mode browser automation and completed in-app browser downloads were unavailable, so those behaviors were checked in the standalone harness. This is not a customer usability study or accessibility certification.
+Checks cover replanning, specialist gating, review invalidation, source history, denied storage, guarded exports, and pilot brief validation. The customer journey was exercised in the browser, including buyer correction, stale export blocking, required pilot fields, refresh, reset, and dialog Escape. Desktop and 390px phone layouts were inspected. This is not a customer usability study or accessibility certification. Direct file-mode automation and completed in-app browser downloads were unavailable; standalone boot and export content were checked in the harness.
 
-Voice narration: authorized local storyteller profile, seed 7, natural tempo 1.0. Icons: Phosphor, MIT license in `assets/LICENSE-phosphor.txt`. Independent concept by Yogendra Swami.
+Icons: Phosphor, MIT license in `assets/LICENSE-phosphor.txt`. Independent prototype by Yogendra Swami.

@@ -1,6 +1,6 @@
 window.AgenticScenario={
  id:'core-stacking-na',date:'19 October 2026',seller:'Jamie Shah',company:'Aster Automation',product:'Robotic core-stacking equipment',plainProduct:'Machines that assemble laminated transformer cores.',territory:'North America',
- defaultGoal:'Find manufacturers where our core-stacking equipment could address an in-house assembly need.',
+ defaultGoal:'Find transformer manufacturers in North America that could need more core-assembly capacity.',
  sources:{
   doe:{id:'doe',type:'Public source',title:'Grid demand and equipment supply',publisher:'U.S. Department of Energy',date:'10 August 2026',supports:'DOE describes rising electricity demand and supply constraints affecting transformers and other grid equipment.',limit:'Industry context only. It does not establish demand, production constraints, or a buying project at any account in this scenario.',url:'https://www.energy.gov/oe/articles/strengthening-americas-grid-supply-chain'},
   lae:{id:'lae',type:'Public source',title:'Robotic core-stacking equipment',publisher:'LAE',date:'Reviewed 19 October 2026',supports:'Robotic equipment is an established category for stacking laminated transformer cores.',limit:'This establishes a product category. Aster is fictional; its performance, compatibility, and economic benefit have not been established.',url:'https://www.lae-srl.com/en/robot-stacker/'},
@@ -21,7 +21,7 @@ window.AgenticScenario={
  plans:{
   initial:[
    {id:'context',label:'Establish the market reason',action:'Reviewed the DOE industry context and the equipment category.',result:'Transformer demand provides a reason to investigate. It does not establish an account’s buying need.',sources:['doe','lae']},
-   {id:'segment',label:'Narrow the search with specialist research',action:'Applied the simulated segment-to-process map.',result:'Search for relevant laminated-core manufacturers; wound-core production does not fit this equipment.',sources:['segment']},
+   {id:'segment',label:'Narrow the search with specialist research',action:'Mapped the target applications to the manufacturing process.',result:'Search for relevant laminated-core manufacturers; wound-core production does not fit this equipment.',sources:['segment']},
    {id:'accounts',label:'Investigate accounts beyond the CRM',action:'Compared Ridgeway, HarborGrid, and Summit sample records.',result:'Ridgeway is a new account. HarborGrid is known. Summit uses the wrong core process.',sources:['ridgeway','harbor','summit']},
    {id:'fit',label:'Separate possible fit from confirmed need',action:'Checked the process evidence and flagged the weakest assumption.',result:'Ridgeway’s in-house assembly claim is provisional. Buyer confirmation is the next step.',sources:['ridgeway','segment']},
    {id:'recommend',label:'Prepare a decision for the seller',action:'Prepared an account recommendation and a first validation question.',result:'Review Ridgeway with the plant team; keep HarborGrid for expansion-scope discovery. No outreach has been sent.',sources:['ridgeway','harbor']}
@@ -29,7 +29,7 @@ window.AgenticScenario={
   adaptive:[
    {id:'correct',label:'Apply the buyer correction',action:'Treated the sample buyer response as the current process fact.',result:'Ridgeway outsources core assembly. Exclude it for this product and mark the previous play for review.',sources:['buyer-ridgeway']},
    {id:'replan',label:'Change the investigation criteria',action:'Required explicit, recent evidence of in-house core assembly for the next recommendation.',result:'The buyer fact applies to Ridgeway. The new evidence requirement applies to this product search.',sources:['buyer-ridgeway','segment']},
-   {id:'investigate',label:'Investigate another manufacturer',action:'Read the Evergreen operations-profile fixture.',result:'A newly investigated account explicitly describes in-house laminated-core assembly.',sources:['evergreen']},
+   {id:'investigate',label:'Investigate another manufacturer',action:'Reviewed the Evergreen operations profile.',result:'A newly investigated account explicitly describes in-house laminated-core assembly.',sources:['evergreen']},
    {id:'gap',label:'Route the remaining research gap',action:'Identified a segment question for specialist analyst review.',result:'An analyst should check product-segment relevance. The buyer must still confirm the production need.',sources:['evergreen','segment']},
    {id:'recommend',label:'Prepare the next opportunity',action:'Prepared Evergreen with evidence, an analyst question, and the next buyer question.',result:'Review the prepared analyst handoff, then validate the need with plant operations.',sources:['evergreen','segment']}
   ]

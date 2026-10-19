@@ -10,7 +10,7 @@
   
   if(id==='harbor'&&s.monitoringApplied)return {label:'Timing changed',tone:'amber',action:'Agree when to reconnect',question:'When will the expansion review restart, and who owns the decision?',route:'buyer'};
   if(id==='evergreen'&&!s.analyst.applied)return {label:'Analyst check needed',tone:'amber',action:'Check product-segment relevance',question:'Does Evergreen’s sample product mix sit within the target segment?',route:'analyst'};
-  if(s.feedback[id]?.need==='confirmed')return {label:'Need confirmed in sample',tone:'green',action:'Prepare a technical assessment',question:'Which core designs and installation constraints should an application engineer assess?',route:'technical'};
+  if(s.feedback[id]?.need==='confirmed')return {label:'Need confirmed · sample',tone:'green',action:'Prepare a technical assessment',question:'Which core designs and installation constraints should an application engineer assess?',route:'technical'};
   if(id==='harbor')return {label:'Scope needs checking',tone:'neutral',action:'Clarify the expansion scope',question:'Does the expansion review include laminated-core assembly?',route:'buyer'};
   return {label:'Worth a first conversation',tone:'green',action:'Validate the production need',question:'Do you assemble laminated cores in-house, and is that slowing production?',route:'buyer'};
  }

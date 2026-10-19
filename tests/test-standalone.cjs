@@ -3,7 +3,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const assert = require('node:assert/strict');
 const root = path.resolve(__dirname, '..');
-const html = fs.readFileSync(path.join(root, 'SalesPlay-Agentic-Manager-Demo.html'), 'utf8');
+const html = fs.readFileSync(path.join(root, 'SalesPlay-Agentic-Demo.html'), 'utf8');
 const scripts = [...html.matchAll(/<script>([\s\S]*?)<\/script>/g)].map(m => m[1]);
 assert.equal(scripts.length, 3);
 assert(!/<script\s+src=|<link[^>]+rel="stylesheet"|src="assets\//.test(html));
@@ -47,7 +47,7 @@ function boot(denyStorage) {
 (async () => {
   for (const denied of [false,true]) {
     const h = boot(denied);
-    assert(h.nodes.get('#main').innerHTML.includes('Start investigation'));
+    assert(h.nodes.get('#main').innerHTML.includes('Find opportunities'));
     h.run("state=E.start(state,D);for(let i=0;i<5;i++)state=E.advance(state,D);state=E.draft(state,'ridgeway',D.accounts)");
     h.run("exportPlay('ridgeway',false)");
     assert.equal(h.downloads.length,0,'Unreviewed exports must be blocked');
@@ -62,9 +62,22 @@ function boot(denyStorage) {
     h.run('persist();render()');
     assert.equal(h.run('storageFailed'),denied);
     if(denied) assert(h.nodes.get('#main').innerHTML.includes('Browser storage is unavailable'));
-    else assert(h.memory.has('salesplay-agentic-manager-v1'));
+    else assert(h.memory.has('salesplay-agentic-customer-v1'));
+    h.run("$('#pilot-product').value='';$('#pilot-market').value='North America';$('#pilot-outcome').value='Validate five useful new accounts';savePilotBrief()");
+    assert.equal(h.run('state.pilot'),undefined,'An incomplete pilot brief must not be saved');
+    assert(h.nodes.get('#pilot-error').textContent.includes('Add your product'));
+    h.run("$('#pilot-product').value='<img src=x>';savePilotBrief()");
+    assert(h.nodes.get('#dialog-content').innerHTML.includes('&lt;img src=x&gt;'));
+    assert(!h.nodes.get('#dialog-content').innerHTML.includes('<img src=x>'));
+    if(denied) assert(h.nodes.get('#dialog-content').innerHTML.includes('Available for this session.'));
+    h.run('exportPilotBrief()');
+    assert.equal(h.downloads.length,2);
+    const pilotText=await h.downloads[1].blob.text();
+    assert(pilotText.includes('Starting scope: five accounts'));
+    assert(pilotText.includes('No pilot request has been submitted.'));
   }
   console.log('PASS Standalone scripts boot without a server or runtime network dependency.');
   console.log('PASS Reviewed export content is complete; unreviewed and stale exports are blocked.');
   console.log('PASS The complete standalone app operates with storage available or denied.');
+  console.log('PASS Pilot scoping requires complete inputs, escapes user text, and prepares an unsent brief.');
 })().catch(e=>{console.error(e);process.exitCode=1});
